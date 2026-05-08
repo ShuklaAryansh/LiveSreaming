@@ -1,16 +1,32 @@
-# React + Vite
+# 🎥 LiveStream Pro - ZegoCloud Powered
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, real-time live streaming application built with **React** and **Tailwind CSS**. This project leverages **ZegoCloud's UIKits** to handle complex RTC (Real-Time Communication) logic entirely on the client side, eliminating the need for a dedicated backend.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Client-Side Room Logic**: Join or create rooms using dynamic routing.
+- **Prebuilt UI Components**: Professional-grade video/audio interface provided by ZegoCloud.
+- **Live Chat & Interactions**: Real-time messaging and user management built into the stream.
+- **Zero Backend**: All signaling and stream handling are managed via ZegoCloud SDKs.
+- **Responsive Design**: Styled with Tailwind CSS for a seamless experience on all devices.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend Framework**: [React.js](https://reactjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Real-Time SDK**: [ZegoCloud UIKits](https://www.zegocloud.com/)
+- **Deployment**: Optimized for Vercel/Netlify
 
-## Expanding the ESLint configuration
+## 📋 Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run this project, you just need a ZegoCloud project:
+1. Create a project in the [ZegoCloud Admin Console](https://console.zegocloud.com/).
+2. Select **"Video Conference"** or **"Live Streaming"** as your use case.
+3. Get your **AppID** and **ServerSecret**.
+
+## ⚙️ Setup Instructions
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+   cd your-repo-name
